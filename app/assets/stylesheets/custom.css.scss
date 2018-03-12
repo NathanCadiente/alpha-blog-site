@@ -2,3 +2,47 @@ $navbar-default-bg: #000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+  border-radius: initial;
+}
+
+.jumbotron {
+  background-image: url("rorbackground.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron .sign-up-now-btn {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer nav {
+  float: right;
+}
+
+.footer nav ul {
+  float: left;
+  list-style-type: none;
+}
+
+.footer nav ul li {
+  float: left;
+  margin-left: 10px;
+  padding-left: 10px;
+}
