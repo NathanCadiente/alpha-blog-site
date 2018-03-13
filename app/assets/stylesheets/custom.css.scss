@@ -14,7 +14,7 @@ $navbar-default-bg: #000;
 }
 
 .jumbotron {
-  background-image: url("rorbackground.jpg");
+  background-image: asset_url("rorbackground.jpg");
   background-size: cover;
   height: 550px;
 }
